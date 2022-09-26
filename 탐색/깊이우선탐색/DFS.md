@@ -6,9 +6,14 @@
 - 스택 자료구조 이용
 # 3. 깊이 우선 탐색의 핵심 이론
 * DFS는 한 번 방문한 노드를 다시 방문하면 안되므로 노드 방문 여부를 체크할 리스트가 필요함
-1. DFS를 시작할 노드를 정한 후 사용할 자료구조 초기화하기
+1. DFS를 시작할 노드를 정한 후 사용할 자료구조 초기화하기<br>
 ![image](https://user-images.githubusercontent.com/94173023/192180176-2390eca1-ddc2-4055-a857-8c5d7c5b6b34.png)
-2. 스택에서 노드를 꺼낸 후 꺼낸 노드의 인접 노드를 다시 스택에 삽입하기
+2. 스택에서 노드를 꺼낸 후 꺼낸 노드의 인접 노드를 다시 스택에 삽입하기<br>
 ![image](https://user-images.githubusercontent.com/94173023/192180438-d6e0f00c-7529-4b88-b253-ca7d8ea22f93.png)
-3. 스택 자료구조에 값이 없을 때까지 반복하기
+3. 스택 자료구조에 값이 없을 때까지 반복하기<br>
 ![image](https://user-images.githubusercontent.com/94173023/192180542-7cd73bb2-647c-48f2-8ccd-36d7f1a9899b.png)
+# 4. 예시
+* 백준
+    * [연결 요소의 개수 구하기](%EC%97%B0%EA%B2%B0%EC%9A%94%EC%86%8C%EC%9D%98%EA%B0%9C%EC%88%98.md)
+    * [신기한 소수 찾기](%EC%8B%A0%EA%B8%B0%ED%95%9C%EC%86%8C%EC%88%98.md)
+    * [친구 관계 파악하기](%EC%B9%9C%EA%B5%AC%EA%B4%80%EA%B3%84.md)
